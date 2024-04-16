@@ -1,0 +1,5 @@
+../Drivers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	2
+../Drivers/CMSIS/Include/core_cm4.h:1814:22:__NVIC_SetPriority	2
+../Core/Src/wake.c:10:6:sleep_enter	1
+../Core/Src/wake.c:24:6:exti_config_wake	1
+../Core/Src/wake.c:37:6:EXTI3_IRQHandler	2
