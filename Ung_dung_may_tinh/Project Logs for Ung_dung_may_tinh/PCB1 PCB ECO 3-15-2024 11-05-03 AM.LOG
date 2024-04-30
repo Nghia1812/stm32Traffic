@@ -1,0 +1,219 @@
+Added Component: Designator=P1(HDR2X25)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P2(HDR2X25)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=TB1(MODULE_STM32F4DISCOVERY)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "STM32F4DISCOVERY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=VDD Pin=P1-3
+Added Pin To Net: NetName=VDD Pin=P1-4
+Added Pin To Net: NetName=GND Pin=P1-5
+Added Pin To Net: NetName=NRST Pin=P1-6
+Added Pin To Net: NetName=PC1 Pin=P1-7
+Added Pin To Net: NetName=PC0 Pin=P1-8
+Added Pin To Net: NetName=PC3 Pin=P1-9
+Added Pin To Net: NetName=PC2 Pin=P1-10
+Added Pin To Net: NetName=PA1 Pin=P1-11
+Added Pin To Net: NetName=PA0 Pin=P1-12
+Added Pin To Net: NetName=PA3 Pin=P1-13
+Added Pin To Net: NetName=PA2 Pin=P1-14
+Added Pin To Net: NetName=PA5 Pin=P1-15
+Added Pin To Net: NetName=PA4 Pin=P1-16
+Added Pin To Net: NetName=PA7 Pin=P1-17
+Added Pin To Net: NetName=PA6 Pin=P1-18
+Added Pin To Net: NetName=PC5 Pin=P1-19
+Added Pin To Net: NetName=PC4 Pin=P1-20
+Added Pin To Net: NetName=PB1 Pin=P1-21
+Added Pin To Net: NetName=PB0 Pin=P1-22
+Added Pin To Net: NetName=GND Pin=P1-23
+Added Pin To Net: NetName=PB2 Pin=P1-24
+Added Pin To Net: NetName=PE7 Pin=P1-25
+Added Pin To Net: NetName=PE8 Pin=P1-26
+Added Pin To Net: NetName=PE9 Pin=P1-27
+Added Pin To Net: NetName=PE10 Pin=P1-28
+Added Pin To Net: NetName=PE11 Pin=P1-29
+Added Pin To Net: NetName=PE12 Pin=P1-30
+Added Pin To Net: NetName=PE13 Pin=P1-31
+Added Pin To Net: NetName=PE14 Pin=P1-32
+Added Pin To Net: NetName=PE15 Pin=P1-33
+Added Pin To Net: NetName=PB10 Pin=P1-34
+Added Pin To Net: NetName=PB11 Pin=P1-35
+Added Pin To Net: NetName=PB12 Pin=P1-36
+Added Pin To Net: NetName=PB13 Pin=P1-37
+Added Pin To Net: NetName=PB14 Pin=P1-38
+Added Pin To Net: NetName=PB15 Pin=P1-39
+Added Pin To Net: NetName=PD8 Pin=P1-40
+Added Pin To Net: NetName=PD9 Pin=P1-41
+Added Pin To Net: NetName=PD10 Pin=P1-42
+Added Pin To Net: NetName=PD11 Pin=P1-43
+Added Pin To Net: NetName=PD12 Pin=P1-44
+Added Pin To Net: NetName=PD13 Pin=P1-45
+Added Pin To Net: NetName=PD14 Pin=P1-46
+Added Pin To Net: NetName=PD15 Pin=P1-47
+Added Pin To Net: NetName=GND Pin=P1-49
+Added Pin To Net: NetName=GND Pin=P1-50
+Added Pin To Net: NetName=GND Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=5V Pin=P2-3
+Added Pin To Net: NetName=5V Pin=P2-4
+Added Pin To Net: NetName=3V Pin=P2-5
+Added Pin To Net: NetName=3V Pin=P2-6
+Added Pin To Net: NetName=PH0 Pin=P2-7
+Added Pin To Net: NetName=PH1 Pin=P2-8
+Added Pin To Net: NetName=PC14 Pin=P2-9
+Added Pin To Net: NetName=PC15 Pin=P2-10
+Added Pin To Net: NetName=PE6 Pin=P2-11
+Added Pin To Net: NetName=PC13 Pin=P2-12
+Added Pin To Net: NetName=PE4 Pin=P2-13
+Added Pin To Net: NetName=PE5 Pin=P2-14
+Added Pin To Net: NetName=PE2 Pin=P2-15
+Added Pin To Net: NetName=PE3 Pin=P2-16
+Added Pin To Net: NetName=PE0 Pin=P2-17
+Added Pin To Net: NetName=PE1 Pin=P2-18
+Added Pin To Net: NetName=PB8 Pin=P2-19
+Added Pin To Net: NetName=PB9 Pin=P2-20
+Added Pin To Net: NetName=BOOT0 Pin=P2-21
+Added Pin To Net: NetName=VDD Pin=P2-22
+Added Pin To Net: NetName=PB6 Pin=P2-23
+Added Pin To Net: NetName=PB7 Pin=P2-24
+Added Pin To Net: NetName=PB4 Pin=P2-25
+Added Pin To Net: NetName=PB5 Pin=P2-26
+Added Pin To Net: NetName=PD7 Pin=P2-27
+Added Pin To Net: NetName=PB3 Pin=P2-28
+Added Pin To Net: NetName=PD5 Pin=P2-29
+Added Pin To Net: NetName=PD6 Pin=P2-30
+Added Pin To Net: NetName=PD3 Pin=P2-31
+Added Pin To Net: NetName=PD4 Pin=P2-32
+Added Pin To Net: NetName=PD1 Pin=P2-33
+Added Pin To Net: NetName=PD2 Pin=P2-34
+Added Pin To Net: NetName=PC12 Pin=P2-35
+Added Pin To Net: NetName=PD0 Pin=P2-36
+Added Pin To Net: NetName=PC10 Pin=P2-37
+Added Pin To Net: NetName=PC11 Pin=P2-38
+Added Pin To Net: NetName=PA14 Pin=P2-39
+Added Pin To Net: NetName=PA15 Pin=P2-40
+Added Pin To Net: NetName=PA10 Pin=P2-41
+Added Pin To Net: NetName=PA13 Pin=P2-42
+Added Pin To Net: NetName=PA8 Pin=P2-43
+Added Pin To Net: NetName=PA9 Pin=P2-44
+Added Pin To Net: NetName=PC8 Pin=P2-45
+Added Pin To Net: NetName=PC9 Pin=P2-46
+Added Pin To Net: NetName=PC6 Pin=P2-47
+Added Pin To Net: NetName=PC7 Pin=P2-48
+Added Pin To Net: NetName=GND Pin=P2-49
+Added Pin To Net: NetName=GND Pin=P2-50
+Added Pin To Net: NetName=GND Pin=TB1-P1_1
+Added Pin To Net: NetName=GND Pin=TB1-P1_2
+Added Pin To Net: NetName=VDD Pin=TB1-P1_3
+Added Pin To Net: NetName=VDD Pin=TB1-P1_4
+Added Pin To Net: NetName=GND Pin=TB1-P1_5
+Added Pin To Net: NetName=NRST Pin=TB1-P1_6
+Added Pin To Net: NetName=PC1 Pin=TB1-P1_7
+Added Pin To Net: NetName=PC0 Pin=TB1-P1_8
+Added Pin To Net: NetName=PC3 Pin=TB1-P1_9
+Added Pin To Net: NetName=PC2 Pin=TB1-P1_10
+Added Pin To Net: NetName=PA1 Pin=TB1-P1_11
+Added Pin To Net: NetName=PA0 Pin=TB1-P1_12
+Added Pin To Net: NetName=PA3 Pin=TB1-P1_13
+Added Pin To Net: NetName=PA2 Pin=TB1-P1_14
+Added Pin To Net: NetName=PA5 Pin=TB1-P1_15
+Added Pin To Net: NetName=PA4 Pin=TB1-P1_16
+Added Pin To Net: NetName=PA7 Pin=TB1-P1_17
+Added Pin To Net: NetName=PA6 Pin=TB1-P1_18
+Added Pin To Net: NetName=PC5 Pin=TB1-P1_19
+Added Pin To Net: NetName=PC4 Pin=TB1-P1_20
+Added Pin To Net: NetName=PB1 Pin=TB1-P1_21
+Added Pin To Net: NetName=PB0 Pin=TB1-P1_22
+Added Pin To Net: NetName=GND Pin=TB1-P1_23
+Added Pin To Net: NetName=PB2 Pin=TB1-P1_24
+Added Pin To Net: NetName=PE7 Pin=TB1-P1_25
+Added Pin To Net: NetName=PE8 Pin=TB1-P1_26
+Added Pin To Net: NetName=PE9 Pin=TB1-P1_27
+Added Pin To Net: NetName=PE10 Pin=TB1-P1_28
+Added Pin To Net: NetName=PE11 Pin=TB1-P1_29
+Added Pin To Net: NetName=PE12 Pin=TB1-P1_30
+Added Pin To Net: NetName=PE13 Pin=TB1-P1_31
+Added Pin To Net: NetName=PE14 Pin=TB1-P1_32
+Added Pin To Net: NetName=PE15 Pin=TB1-P1_33
+Added Pin To Net: NetName=PB10 Pin=TB1-P1_34
+Added Pin To Net: NetName=PB11 Pin=TB1-P1_35
+Added Pin To Net: NetName=PB12 Pin=TB1-P1_36
+Added Pin To Net: NetName=PB13 Pin=TB1-P1_37
+Added Pin To Net: NetName=PB14 Pin=TB1-P1_38
+Added Pin To Net: NetName=PB15 Pin=TB1-P1_39
+Added Pin To Net: NetName=PD8 Pin=TB1-P1_40
+Added Pin To Net: NetName=PD9 Pin=TB1-P1_41
+Added Pin To Net: NetName=PD10 Pin=TB1-P1_42
+Added Pin To Net: NetName=PD11 Pin=TB1-P1_43
+Added Pin To Net: NetName=PD12 Pin=TB1-P1_44
+Added Pin To Net: NetName=PD13 Pin=TB1-P1_45
+Added Pin To Net: NetName=PD14 Pin=TB1-P1_46
+Added Pin To Net: NetName=PD15 Pin=TB1-P1_47
+Added Pin To Net: NetName=GND Pin=TB1-P1_49
+Added Pin To Net: NetName=GND Pin=TB1-P1_50
+Added Pin To Net: NetName=GND Pin=TB1-P2_1
+Added Pin To Net: NetName=GND Pin=TB1-P2_2
+Added Pin To Net: NetName=5V Pin=TB1-P2_3
+Added Pin To Net: NetName=5V Pin=TB1-P2_4
+Added Pin To Net: NetName=3V Pin=TB1-P2_5
+Added Pin To Net: NetName=3V Pin=TB1-P2_6
+Added Pin To Net: NetName=PH0 Pin=TB1-P2_7
+Added Pin To Net: NetName=PH1 Pin=TB1-P2_8
+Added Pin To Net: NetName=PC14 Pin=TB1-P2_9
+Added Pin To Net: NetName=PC15 Pin=TB1-P2_10
+Added Pin To Net: NetName=PE6 Pin=TB1-P2_11
+Added Pin To Net: NetName=PC13 Pin=TB1-P2_12
+Added Pin To Net: NetName=PE4 Pin=TB1-P2_13
+Added Pin To Net: NetName=PE5 Pin=TB1-P2_14
+Added Pin To Net: NetName=PE2 Pin=TB1-P2_15
+Added Pin To Net: NetName=PE3 Pin=TB1-P2_16
+Added Pin To Net: NetName=PE0 Pin=TB1-P2_17
+Added Pin To Net: NetName=PE1 Pin=TB1-P2_18
+Added Pin To Net: NetName=PB8 Pin=TB1-P2_19
+Added Pin To Net: NetName=PB9 Pin=TB1-P2_20
+Added Pin To Net: NetName=BOOT0 Pin=TB1-P2_21
+Added Pin To Net: NetName=VDD Pin=TB1-P2_22
+Added Pin To Net: NetName=PB6 Pin=TB1-P2_23
+Added Pin To Net: NetName=PB7 Pin=TB1-P2_24
+Added Pin To Net: NetName=PB4 Pin=TB1-P2_25
+Added Pin To Net: NetName=PB5 Pin=TB1-P2_26
+Added Pin To Net: NetName=PD7 Pin=TB1-P2_27
+Added Pin To Net: NetName=PB3 Pin=TB1-P2_28
+Added Pin To Net: NetName=PD5 Pin=TB1-P2_29
+Added Pin To Net: NetName=PD6 Pin=TB1-P2_30
+Added Pin To Net: NetName=PD3 Pin=TB1-P2_31
+Added Pin To Net: NetName=PD4 Pin=TB1-P2_32
+Added Pin To Net: NetName=PD1 Pin=TB1-P2_33
+Added Pin To Net: NetName=PD2 Pin=TB1-P2_34
+Added Pin To Net: NetName=PC12 Pin=TB1-P2_35
+Added Pin To Net: NetName=PD0 Pin=TB1-P2_36
+Added Pin To Net: NetName=PC10 Pin=TB1-P2_37
+Added Pin To Net: NetName=PC11 Pin=TB1-P2_38
+Added Pin To Net: NetName=PA14 Pin=TB1-P2_39
+Added Pin To Net: NetName=PA15 Pin=TB1-P2_40
+Added Pin To Net: NetName=PA10 Pin=TB1-P2_41
+Added Pin To Net: NetName=PA13 Pin=TB1-P2_42
+Added Pin To Net: NetName=PA8 Pin=TB1-P2_43
+Added Pin To Net: NetName=PA9 Pin=TB1-P2_44
+Added Pin To Net: NetName=PC8 Pin=TB1-P2_45
+Added Pin To Net: NetName=PC9 Pin=TB1-P2_46
+Added Pin To Net: NetName=PC6 Pin=TB1-P2_47
+Added Pin To Net: NetName=PC7 Pin=TB1-P2_48
+Added Pin To Net: NetName=GND Pin=TB1-P2_49
+Added Pin To Net: NetName=GND Pin=TB1-P2_50
+Added Member To Class: ClassName=Sheet1 Member=Component P1 Header 25X2
+Added Member To Class: ClassName=Sheet1 Member=Component P2 Header 25X2
+Added Member To Class: ClassName=Sheet1 Member=Component TB1 STM32F4DISCOVERY

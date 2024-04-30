@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: C:\Users\NGHIA\Downloads\Ung_dung_may_tinh-20240404T051911Z-001\Ung_dung_may_tinh\PCB1.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=20.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

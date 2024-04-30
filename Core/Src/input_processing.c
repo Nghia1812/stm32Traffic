@@ -21,12 +21,11 @@ enum ButtonState button_2_state = BUTTON_PRESSED; //Decrement time
 enum ButtonState button_3_state = BUTTON_PRESSED; //Save time
 
 void fsm_button_processing() {
-
 	switch (button_0_state) {
 		case BUTTON_RELEASED:
 			if (is_button_pressed(0)) {
 				button_0_state = BUTTON_PRESSED;
-				if (status == RED_GREEN)	status = MODE2;
+				if ((status == RED_GREEN) || (status == RED_YELLOW) || (status == GREEN_RED) || (status == YELLOW_RED))	status = MODE2;
 				if (status == AUTO_RED) 	status = MODE3;
 				if (status == AUTO_YELLOW) 	status = MODE4;
 				if (status == AUTO_GREEN) 	status = MODE1;

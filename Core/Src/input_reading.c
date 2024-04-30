@@ -30,8 +30,8 @@ static uint8_t flagForButtonPress1s[N0_OF_BUTTONS];
 // after the button is pressed more than 1 second.
 static uint16_t counterForButtonPress1s[N0_OF_BUTTONS];
 
-static GPIO_TypeDef* button_ports[N0_OF_BUTTONS] = {C4_Btn1_GPIO_Port, C5_Btn2_GPIO_Port, B0_Btn3_GPIO_Port, B1_Btn4_GPIO_Port};
-static uint16_t button_pins[N0_OF_BUTTONS] = {C4_Btn1_Pin, C5_Btn2_Pin, B0_Btn3_Pin, B1_Btn4_Pin};
+static GPIO_TypeDef* button_ports[N0_OF_BUTTONS] = {B4_Btn1_GPIO_Port, B5_Btn2_GPIO_Port, B6_Btn3_GPIO_Port, B7_Btn4_GPIO_Port};
+static uint16_t button_pins[N0_OF_BUTTONS] = {B4_Btn1_Pin, B5_Btn2_Pin, B6_Btn3_Pin, B7_Btn4_Pin};
 
 void button_reading(void) {
 	for (int i = 0; i < N0_OF_BUTTONS; i++) {

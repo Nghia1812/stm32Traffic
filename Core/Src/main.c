@@ -18,12 +18,10 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "stdio.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -103,8 +101,8 @@ int main(void)
   MX_TIM2_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-  exti_config_wake();
-  sleep_enter();
+//  exti_config_wake();
+//  sleep_enter();
 
   HAL_TIM_Base_Start_IT(&htim2);
   HAL_UART_Receive_IT (&huart2, Rx_data, sizeof(Rx_data));
@@ -119,7 +117,7 @@ int main(void)
 
 
 
-  //put SCH_Dispatch_Tasks(); to while loop
+  //put SCH_Dispatch_Tasks(); in while loop
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -333,14 +331,10 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Alternate = GPIO_AF5_SPI1;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : C4_Btn1_Pin C5_Btn2_Pin */
-  GPIO_InitStruct.Pin = C4_Btn1_Pin|C5_Btn2_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : B0_Btn3_Pin B1_Btn4_Pin BOOT1_Pin */
-  GPIO_InitStruct.Pin = B0_Btn3_Pin|B1_Btn4_Pin|BOOT1_Pin;
+  /*Configure GPIO pins : BOOT1_Pin B4_Btn1_Pin B5_Btn2_Pin B6_Btn3_Pin
+                           B7_Btn4_Pin */
+  GPIO_InitStruct.Pin = BOOT1_Pin|B4_Btn1_Pin|B5_Btn2_Pin|B6_Btn3_Pin
+                          |B7_Btn4_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
@@ -390,13 +384,13 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(OTG_FS_OverCurrent_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : Audio_SCL_Pin Audio_SDA_Pin */
-  GPIO_InitStruct.Pin = Audio_SCL_Pin|Audio_SDA_Pin;
+  /*Configure GPIO pin : Audio_SDA_Pin */
+  GPIO_InitStruct.Pin = Audio_SDA_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_AF_OD;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.Alternate = GPIO_AF4_I2C1;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  HAL_GPIO_Init(Audio_SDA_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pin : MEMS_INT2_Pin */
   GPIO_InitStruct.Pin = MEMS_INT2_Pin;
